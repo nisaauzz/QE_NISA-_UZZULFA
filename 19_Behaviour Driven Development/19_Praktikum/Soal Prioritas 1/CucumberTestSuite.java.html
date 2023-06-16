@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>CucumberTestSuite.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+CucumberTestSuite.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">starter</span><span class="s0">;</span>
+
+<span class="s0">import </span><span class="s1">io.cucumber.junit.CucumberOptions</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">net.serenitybdd.cucumber.CucumberWithSerenity</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">org.junit.runner.RunWith</span><span class="s0">;</span>
+
+<span class="s1">@RunWith(CucumberWithSerenity.</span><span class="s0">class</span><span class="s1">)</span>
+<span class="s1">@CucumberOptions(</span>
+        <span class="s1">plugin = {</span><span class="s2">&quot;pretty&quot;</span><span class="s1">}</span><span class="s0">,</span>
+        <span class="s1">features = </span><span class="s2">&quot;src/test/resources/features&quot;</span>
+<span class="s1">)</span>
+<span class="s0">public class </span><span class="s1">CucumberTestSuite {}</span>
+</pre>
+</body>
+</html>
